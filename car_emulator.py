@@ -47,23 +47,23 @@ class Car:
 
             self.time += 1
             self.drive_left()
-            time.sleep(0.1)
+            time.sleep(0.01)
             self.time += 1
             self.drive_down()
-            time.sleep(0.1)
+            time.sleep(0.01)
             self.time += 1
             self.delta += self.delta_increment
             self.drive_right()
-            time.sleep(0.1)
+            time.sleep(0.01)
             self.time += 1
             self.drive_up()
-            time.sleep(0.1)
+            time.sleep(0.01)
 
     def send_stat(self):
-        self.send_stat_1()
-        self.send_stat_2()
+        #self.send_stat_1()
+        #self.send_stat_2()
         self.send_stat_3()
-        self.send_stat_4()
+        #self.send_stat_4()
 
     def send_stat_1(self):
         msg = ""
